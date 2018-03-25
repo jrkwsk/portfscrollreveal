@@ -12,6 +12,10 @@ nav > a {
     font-size: 1.2em;
     margin: 2vw;
     text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+
+
 }
 
 nav > a:hover {
@@ -23,7 +27,6 @@ nav {
     opacity: 0.9;
     height: 5vh;
     padding-top: 1vh;
-    color: whitesmoke;
 }
 
 /*/sekcja home/*/
@@ -57,8 +60,8 @@ nav {
 }
 */
 
-#plus {
-    color: green;
+span {
+    color: #606449;
 }
 
 #imgmain {
@@ -72,18 +75,45 @@ nav {
 
 }
 
-/*/sekcja skills/*/
+/*/sekcje/*/
 
-#skills {
+#skills,
+#portfolio,
+#about {
     background-color: #071729;
     color: whitesmoke;
-/*    height: 100vh;*/
-
+    height: 100vh;
 }
 
-.skillstitle {
+h3.secttitle {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     background-color: transparent;
+    color: #606449;
+    font-family: 'Francois One', sans-serif;
+    border-top: 1px rgba(255,255,255,0.1) solid;
+    padding: 5px;
 }
+
+div.sectrow {
+    padding-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+p {
+    color: #ccc;
+font-family: 'Raleway', sans-serif;
+}
+/*/zdjecie na dole/*/
+img.me {
+    border-radius: 50%;
+}
+
+
+#about > div > div > div:nth-child(2) > a {
+    text-decoration: none;
+}
+
 
 /*
 .skillsdiv {
