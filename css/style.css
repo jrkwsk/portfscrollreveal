@@ -1,4 +1,5 @@
-*, body {
+*,
+body {
     font-family: 'Anton', cursive;
     background-color: #071729;
     color: whitesmoke;
@@ -44,7 +45,7 @@ nav {
 #designer,
 #name {
     color: whitesmoke;
-        background-color: transparent;
+    background-color: transparent;
 
 }
 
@@ -66,7 +67,7 @@ nav {
     margin: 0 auto;
     height: 55vh;
     width: auto;
-        background-color: transparent;
+    background-color: transparent;
 
 }
 
@@ -75,5 +76,63 @@ nav {
 #skills {
     background-color: #071729;
     color: whitesmoke;
+/*    height: 100vh;*/
+
 }
 
+.skillstitle {
+    background-color: transparent;
+}
+
+/*
+.skillsdiv {
+    position: relative;
+}
+
+img.skillsimg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+    width: inherit;
+    height: inherit;
+}
+
+.skillscontainer {
+    height: 50vh;
+}
+
+.skillscontainer::before {
+    height: 10vh;
+}
+*/
+
+/*
+div.skillsrow {
+    height: 50vh;
+
+}
+*/
+
+/*
+div.skillsdiv {
+    height: 20vh;
+    margin-top: 10vh;
+
+}
+*/
+
+/*
+#myskills {
+    padding: 20px;
+}
+*/
+
+/*
+.skillscontainer, .skillsrow, {
+    height: 50vh;
+}
+.skillsdiv, skillstitle {
+    height: 20vh;
+}*/
