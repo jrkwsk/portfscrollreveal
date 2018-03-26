@@ -3,19 +3,18 @@ body {
     font-family: 'Anton', cursive;
     background-color: #071729;
     color: whitesmoke;
+    letter-spacing: 1px;
 }
 
 /*/nawigacja/*/
 
 nav > a {
-    font-family: 'Anton', cursive;
-    font-size: 1.2em;
+    /*    font-family: 'Anton', cursive;*/
+    /*    font-size: 1m;*/
     margin: 2vw;
     text-decoration: none;
     color: whitesmoke;
-    font-family: 'Raleway', sans-serif;
-
-
+    /*    font-family: 'Raleway', sans-serif;*/
 }
 
 nav > a:hover {
@@ -50,18 +49,15 @@ nav {
 #name {
     color: whitesmoke;
     background-color: transparent;
-
 }
 
-/*
-#designer::first-letter { 
-    font-size: 150%;
-    color: #8A2BE2;
+#designer {
+    color: skyblue;
+
 }
-*/
 
 span {
-    color: #606449;
+    color: #E80090;
 }
 
 #imgmain {
@@ -83,28 +79,38 @@ span {
     background-color: #071729;
     color: whitesmoke;
     height: 100vh;
+    overflow: hidden;
 }
+
+/*
+#about {
+    background-image: url(../img/gwiazdy.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*/
 
 h3.secttitle {
     margin-top: 10vh;
     margin-bottom: 10vh;
     background-color: transparent;
-    color: #606449;
+/*    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));*/
+    color: whitesmoke;
     font-family: 'Francois One', sans-serif;
-    border-top: 1px rgba(255,255,255,0.1) solid;
+    border-top: 1px rgba(255, 255, 255, 0.3) solid;
     padding: 5px;
 }
 
 div.sectrow {
     padding-top: 3vh;
     margin-bottom: 3vh;
+    background-color: transparent;
 }
 
-p {
-    color: #ccc;
-font-family: 'Raleway', sans-serif;
-}
+
 /*/zdjecie na dole/*/
+
 img.me {
     border-radius: 50%;
 }
@@ -114,56 +120,14 @@ img.me {
     text-decoration: none;
 }
 
+img {
+    opacity: 0.9;
+}
 
 /*
-.skillsdiv {
-    position: relative;
-}
-
-img.skillsimg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0.5;
-    width: inherit;
-    height: inherit;
-}
-
-.skillscontainer {
-    height: 50vh;
-}
-
-.skillscontainer::before {
-    height: 10vh;
-}
-*/
-
-/*
-div.skillsrow {
-    height: 50vh;
+.rocketsmall {
+    transform: rotate(90deg) !important;
+        padding-top: 10vh;
 
 }
 */
-
-/*
-div.skillsdiv {
-    height: 20vh;
-    margin-top: 10vh;
-
-}
-*/
-
-/*
-#myskills {
-    padding: 20px;
-}
-*/
-
-/*
-.skillscontainer, .skillsrow, {
-    height: 50vh;
-}
-.skillsdiv, skillstitle {
-    height: 20vh;
-}*/
