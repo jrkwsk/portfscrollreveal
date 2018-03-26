@@ -17,9 +17,12 @@ nav > a {
     /*    font-family: 'Raleway', sans-serif;*/
 }
 
-nav > a:hover {
-    text-decoration: line-through dotted green;
+/*
+a.nav-link: hover {
+    text-decoration: line-through dotted green !impotant;
 }
+*/
+
 
 nav {
     background-color: #071729;
@@ -73,29 +76,19 @@ span {
 
 /*/sekcje/*/
 
-#skills,
-#portfolio,
-#about {
+.wholesect {
     background-color: #071729;
     color: whitesmoke;
-    height: 100vh;
+    height: auto;
+/*    min-height: 100vh;*/
     overflow: hidden;
 }
 
-/*
-#about {
-    background-image: url(../img/gwiazdy.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-*/
 
 h3.secttitle {
     margin-top: 10vh;
     margin-bottom: 10vh;
     background-color: transparent;
-/*    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));*/
     color: whitesmoke;
     font-family: 'Francois One', sans-serif;
     border-top: 1px rgba(255, 255, 255, 0.3) solid;
@@ -109,25 +102,23 @@ div.sectrow {
 }
 
 
-/*/zdjecie na dole/*/
-
-img.me {
-    border-radius: 50%;
+p.descript {
+    padding-top: 3vh;
 }
 
-
-#about > div > div > div:nth-child(2) > a {
-    text-decoration: none;
-}
-
-img {
-    opacity: 0.9;
+img.rocketsmall {
+height: 100px;
+width: auto;
 }
 
 /*
-.rocketsmall {
-    transform: rotate(90deg) !important;
-        padding-top: 10vh;
-
+@media screen and (min-device-width:500) and (max-device-width:768) {
+    img.skillsimg1,
+    img.skillsimg2,
+    img.skillsimg3,
+    img.skillsimg4,
+    nav {
+        background-color: aqua;
+    }
 }
 */
