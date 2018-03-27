@@ -9,20 +9,16 @@ body {
 /*/nawigacja/*/
 
 nav > a {
-    /*    font-family: 'Anton', cursive;*/
-    /*    font-size: 1m;*/
-    margin: 2vw;
+    margin: 1vw;
     text-decoration: none;
     color: whitesmoke;
-    /*    font-family: 'Raleway', sans-serif;*/
 }
+
 
 /*
 a.nav-link: hover {
-    text-decoration: line-through dotted green !impotant;
 }
 */
-
 
 nav {
     background-color: #071729;
@@ -50,17 +46,12 @@ nav {
 #frontenddev,
 #designer,
 #name {
-    color: whitesmoke;
     background-color: transparent;
 }
 
 #designer {
     color: skyblue;
 
-}
-
-span {
-    color: #E80090;
 }
 
 #imgmain {
@@ -71,7 +62,6 @@ span {
     height: 55vh;
     width: auto;
     background-color: transparent;
-
 }
 
 /*/sekcje/*/
@@ -80,7 +70,6 @@ span {
     background-color: #071729;
     color: whitesmoke;
     height: auto;
-/*    min-height: 100vh;*/
     overflow: hidden;
 }
 
@@ -89,10 +78,11 @@ h3.secttitle {
     margin-top: 10vh;
     margin-bottom: 10vh;
     background-color: transparent;
-    color: whitesmoke;
+    color: skyblue;
     font-family: 'Francois One', sans-serif;
     border-top: 1px rgba(255, 255, 255, 0.3) solid;
     padding: 5px;
+
 }
 
 div.sectrow {
@@ -107,18 +97,15 @@ p.descript {
 }
 
 img.rocketsmall {
-height: 100px;
-width: auto;
+    height: 100px;
+    width: auto;
+    min-height: 50px;
 }
 
-/*
-@media screen and (min-device-width:500) and (max-device-width:768) {
-    img.skillsimg1,
-    img.skillsimg2,
-    img.skillsimg3,
-    img.skillsimg4,
-    nav {
-        background-color: aqua;
-    }
+span {
+    color: #E80090;
 }
-*/
+
+p {
+    vertical-align: top;
+}
