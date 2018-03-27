@@ -8,6 +8,9 @@
 
     <link href="https://fonts.googleapis.com/css?family=Anton|Francois+One" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+
+
 
     <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -15,12 +18,38 @@
 </head>
 
 <body class="text-center">
+
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i>
+
+</span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home > <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">My Skills > </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#work">My Work > </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Me! > </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--
     <nav class="navbar fixed-top d-flex justify-content-center">
         <a class="nav-link active" href="#home">Home > </a>
         <a class="nav-link" href="#skills">My Skills > </a>
         <a class="nav-link" href="#work">My work > </a>
         <a class="nav-link" href="#about">Me ! > </a>
     </nav>
+-->
 
     <div class="cover-container">
         <div class="container-fluid" id="home">
@@ -286,6 +315,12 @@
             origin: 'left',
             delay: 400,
             distance: '2500px'
+        });
+        sr.reveal('#imgmain', {
+            duration: 1900,
+            origin: 'bottom',
+            delay: 200,
+            distance: '500px'
         });
     </script>
 

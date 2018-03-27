@@ -8,31 +8,34 @@ body {
 
 /*/nawigacja/*/
 
-nav > a {
-    margin: 1vw;
+#navbarNav > ul > li {
+/*    margin: 1vw;*/
     text-decoration: none;
     color: whitesmoke;
 }
 
 
-/*
-a.nav-link: hover {
-}
-*/
-
-nav {
+nav, #navbarNav, body > nav {
     background-color: #071729;
-    opacity: 0.9;
+    opacity: 0.5;
     height: 5vh;
     padding-top: 1vh;
 }
 
+span {
+       color: #E80090;
+ 
+}
+
+body > nav > button > span {
+    color: #E80090;
+}
 /*/sekcja home/*/
 
 #home {
     height: 100vh;
     width: auto;
-    background-image: url(../img/gwiazdy2.png);
+    background-image: url(../img/gwiazdy2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -100,10 +103,6 @@ img.rocketsmall {
     height: 100px;
     width: auto;
     min-height: 50px;
-}
-
-span {
-    color: #E80090;
 }
 
 p {
