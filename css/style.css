@@ -11,16 +11,20 @@ body {
 #navbarNav > ul > li {
 /*    margin: 1vw;*/
     text-decoration: none;
-    color: whitesmoke;
+    color: skyblue;
+    z-index: 1;
 }
 
 
 nav, #navbarNav, body > nav {
     background-color: #071729;
-    opacity: 0.5;
+/*    opacity: 0.9;*/
     height: 5vh;
     padding-top: 1vh;
+    color: skyblue;
 }
+
+
 
 span {
        color: #E80090;
@@ -108,3 +112,4 @@ img.rocketsmall {
 p {
     vertical-align: top;
 }
+
