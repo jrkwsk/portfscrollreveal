@@ -11,29 +11,13 @@ body {
 #navbarNav > ul > li {
 /*    margin: 1vw;*/
     text-decoration: none;
-    color: skyblue;
-    z-index: 1;
 }
-
-
-nav, #navbarNav, body > nav {
-    background-color: #071729;
-/*    opacity: 0.9;*/
-    height: 5vh;
-    padding-top: 1vh;
-    color: skyblue;
-}
-
 
 
 span {
        color: #E80090;
- 
 }
 
-body > nav > button > span {
-    color: #E80090;
-}
 /*/sekcja home/*/
 
 #home {
@@ -58,16 +42,12 @@ body > nav > button > span {
 
 #designer {
     color: skyblue;
-
 }
 
 #imgmain {
-    display: inline;
     padding-top: 10vh;
     padding-bottom: 5vh;
-    margin: 0 auto;
     height: 55vh;
-    width: auto;
     background-color: transparent;
 }
 
@@ -75,8 +55,6 @@ body > nav > button > span {
 
 .wholesect {
     background-color: #071729;
-    color: whitesmoke;
-    height: auto;
     overflow: hidden;
 }
 
@@ -84,7 +62,6 @@ body > nav > button > span {
 h3.secttitle {
     margin-top: 10vh;
     margin-bottom: 10vh;
-    background-color: transparent;
     color: skyblue;
     font-family: 'Francois One', sans-serif;
     border-top: 1px rgba(255, 255, 255, 0.3) solid;
@@ -95,7 +72,6 @@ h3.secttitle {
 div.sectrow {
     padding-top: 3vh;
     margin-bottom: 3vh;
-    background-color: transparent;
 }
 
 
@@ -106,10 +82,7 @@ p.descript {
 img.rocketsmall {
     height: 100px;
     width: auto;
-    min-height: 50px;
+    min-height: 40px;
 }
 
-p {
-    vertical-align: top;
-}
 
