@@ -85,4 +85,8 @@ img.rocketsmall {
     min-height: 40px;
 }
 
-
+ul, li {
+    text-align:left;
+    list-style-type: none;
+    cursor: pointer;
+}
